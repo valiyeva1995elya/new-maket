@@ -1,0 +1,83 @@
+.order_page{
+    width: 100%;
+    height: 100vh;
+    background-color: #FEFFFA;
+}
+.nav_row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.name_store1{width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+.extra_fun{width: 200px;
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin-left: 200px;
+    justify-content: space-between;
+    
+}
+.name_store2{font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#000000;
+    /* background-image: url(./img/flower_sign.png);
+    background-repeat:; */
+    align-items: center;
+}
+.info_row{
+    font-size: 15px;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+#back{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 15px; 
+    margin-left:100px;
+    margin-top: 40px;
+}
+#booking{ font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 36px; 
+    margin-left:100px;
+    margin-top: 45px;
+}
+.offers_info{width:1000px;
+    height: 1000px ;
+    border-radius:  0 0 20px 0;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction:row ;
+
+}
+.describtion{font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 12px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.offer_r{display: flex;
+    flex-direction:column;
+
+    
+}
+.volume_info{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: space-between;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}

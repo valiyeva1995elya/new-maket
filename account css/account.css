@@ -61,13 +61,48 @@ hr{
     border: 1px solid rgba(168, 168, 168, 0.5);
     border-top: none;
 }
+.pic1{
+    width: 443px;
+    height: 670px;
+    position: absolute;
+    left: -10px;
+    top: 250px;
+}
+.pic2{
+    width: 412px;
+    height: 368px;
+    position: absolute;
+    right: -5px;
+    top: 750px;
+}
+.pic3{
+    width: 206px;
+    height: 322px;
+    position: absolute;
+    left: 0;
+    bottom: -750px;
+}
+.pic4{
+    width: 540px;
+    height: 722px;
+    position: absolute;
+    right: 0;
+    bottom: -1240px;
+}
+.pic5{
+    width: 284px;
+    height: 313px;
+    position: absolute;
+    left:  504px;
+    bottom: -1280px;
+}
 .text-back{
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
 }
-#mr{
-    margin: 55px 210px;
+.mr{
+    margin: 55px 230px;
 }
 .main{
     display: flex;
@@ -75,7 +110,7 @@ hr{
 }
 .start-main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .info-left{
     display: flex;
@@ -132,11 +167,12 @@ span{
 }
 .product{
     display: flex;
-    justify-content: space-around;
+    
     align-items: center;
     border-top: 2px solid #D6D3BB;
-    padding: 20px;
+    padding: 10px 50px;
     box-sizing: border-box;
+    
     
 }
 .bb{
@@ -147,7 +183,8 @@ span{
     height: 101px;
     background-color: white;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    margin-right: -170px;
+    margin-right: 50px;
+    
 
 }
 
@@ -161,9 +198,55 @@ span{
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-    margin-left: -200px;
+    
 }
-.mr-20{
-    margin-right: 20px;
+.mr-70{
+    margin-right: 70px;
 }
-
+.mr-200{
+    margin-right: 200px;
+}
+.mr-450{
+    margin-right: 450px;
+}
+button{
+    width: 37px;
+    height: 37px;
+    border-radius: 37px;
+    background-color: #F6F5EE;
+    border: 1px solid #E2E0CE;
+    margin-right: 10px;
+    margin-bottom: 101px;
+}
+footer{
+    border-top: 1px solid #C4C4C4;
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+button:hover{
+    background-color: #D6D3BB;
+}
+.text-footer{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    display: flex;
+    align-items: center;
+}
